@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-primary: #1b6b3a;
+  --color-primary-dark: #1a3c2e;
+  --color-secondary: #f5a623;
+  --color-secondary-dark: #d38b19;
+}
+
+html {
+  scroll-behavior: smooth;
+}
